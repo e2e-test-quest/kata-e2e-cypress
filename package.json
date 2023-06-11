@@ -1,0 +1,23 @@
+{
+  "name": "e2e-testing",
+  "version": "1.0.0",
+  "description": "Kata for E2E testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-test-quest/kata-e2e-cypress.git"
+  },
+  "keywords": [
+    "E2E",
+    "Cypress"
+  ],
+  "author": "Louis Fredice NJAKO MOLOM / Stanley Servical",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e2e-test-quest/kata-e2e-cypress/issues"
+  },
+  "homepage": "https://github.com/e2e-test-quest/kata-e2e-cypress#readme"
+}
