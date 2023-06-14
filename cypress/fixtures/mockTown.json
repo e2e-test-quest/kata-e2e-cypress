@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Saint-Denis",
+    "forecast": {
+      "condition": "cloudy",
+      "wind": {
+        "speed": {
+          "value": 20.5,
+          "unit": "km/h"
+        },
+        "direction": "North-West"
+      },
+      "temperature": {
+        "min": {
+          "value": 25.2,
+          "unit": "°c"
+        },
+        "max": {
+          "value": 35,
+          "unit": "°c"
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Casablanca",
+    "forecast": {
+      "condition": "sunny",
+      "wind": {
+        "speed": {
+          "value": 5.2,
+          "unit": "km/h"
+        },
+        "direction": "South"
+      },
+      "temperature": {
+        "min": {
+          "value": 28.8,
+          "unit": "°c"
+        },
+        "max": {
+          "value": 38,
+          "unit": "°c"
+        }
+      }
+    }
+  }
+]
