@@ -8,11 +8,10 @@ describe('To Go Further', () => {
     });
 
     it('villes disponibles avec mock', () => {
-        cy.visit('/');
-        cy.get('[data-testid="start-button"]').click();
+        cy.visit('/?isStarted=true');
 
-        cy.get('[data-testid="town-search"]').type('i');
-        cy.get('[data-testid="town-filter"]').click();
+        cy.getByTestId("town-search").type('i');
+        cy.getByTestId("town-filter").click();
 
         verifyChildByTestId("available-towns", ['Saint-Denis']);
     })
